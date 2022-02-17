@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header
+{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(60, 60, 59, 0.7);
+    backdrop-filter: blur(20px);
+}
+ul{
+display: flex;
+}
+
+li{
+    color: #F18700;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+.portfolio
+{
+    /* Portfólio */
+position: absolute;
+width: 73px;
+height: 25px;
+left: calc(50% - 73px/2 + 250.5px);
+top: 21px;
+
+font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: -0.5px;
+
+color: #F18700;
+}
+
+.quem_somos
+{
+    /* Quem somos */
+position: absolute;
+width: 109px;
+height: 25px;
+left: calc(50% - 109px/2 + 405.5px);
+top: 21px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: -0.5px;
+
+color: #F18700;
+}
+
+.contato
+{
+    /* Contato */
+position: absolute;
+width: 70px;
+height: 25px;
+left: calc(50% - 70px/2 + 534px);
+top: 21px;
+
+font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: -0.5px;
+
+color: #F18700;
+}
+
+.logo
+{
+    background-image:url(../Home/Logos.png);
+    /* Logos */
+position: absolute;
+cursor: pointer;
+width: 173px;
+height: 40.85px;
+left: 96px;
+top: 20px;
+}
+
+/* HEADER COMPLETO */
+
+/* Início das imagens */
