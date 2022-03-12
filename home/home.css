@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(/home/preto.png);
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    width:100%;
+    height: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Manrope', sans-serif;
+    background: rgba(60,60,59,0.7);
+    height: 1vh;
+    position: fixed;
+}
+.logo{
+    width: 165px;
+    position: relative;
+    right: 230px;
+    cursor: pointer;
+}
+.header ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #F18700;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.header li a::after{
+    content: '';
+    height: 3px;
+    width:0px;
+    background: #F18700;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.header li a:hover::after{
+    width:100%;
+}
+.logoG{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    
+    position: absolute;
+    width: 372px;
+    height: 360px;
+    left: 133vh;
+    top: 36px;
+    
+}

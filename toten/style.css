@@ -8,7 +8,8 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/toten/fundo.png);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/toten/fundo.png), 
+    url(/toten/IMG_2599.jpg), url(/toten/analogica.jpg), url(/toten/predio.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -35,14 +36,14 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #F18700;
     text-transform: uppercase;
 }
 .navbar ul li::after{
     content: '';
     height: 3px;
-    height: 0;
-    background: cadetblue;
+    width:0px;
+    background: #F18700;
     position: absolute;
     left: 0;
     bottom: -10px;
