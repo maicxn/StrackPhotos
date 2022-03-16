@@ -6,7 +6,7 @@
 }
 .banner{
     width: 100%;
-    height: 100vh;
+    height: 600vh;
     background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(/home/preto.png);
     background-size: cover;
     background-position: center;
@@ -19,9 +19,10 @@
     align-items: center;
     justify-content: space-around;
     font-family: 'Manrope', sans-serif;
-    background: rgba(60,60,59,0.7);
+    background: rgba(60,60,59,0.8);
     height: 1vh;
     position: fixed;
+    z-index:100;
 }
 .logo{
     width: 165px;
@@ -57,16 +58,237 @@
 .header li a:hover::after{
     width:100%;
 }
+/* ^Fim do header^*/
 .logoG{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
-    
     position: absolute;
     width: 372px;
     height: 360px;
-    left: 133vh;
-    top: 36px;
+    left: 65%;
+    top: 331px;
+}
+.strack{
+    position: absolute;
+    width: 824px;
+    height: 131px;
+    left: 96px;
+    top: 329px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color: #fff;
+}
+.todosq{
+    position: absolute;
+    width: 334px;
+    height: 63px;
+    left: 104px;
+    top: 446px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+.botaoemail{
+    position: absolute;
+    width: 312px;
+    height: 65px;
+    left: 107px;
+    top: 600px;
+}
+.featured{
+    position: absolute;
+    width: 198px;
+    height: 48px;
+    left: 153px;
+    top: 803px;    
+}
+/* ^FIM da parteUm^*/
+.home1{
+    position: absolute;
+    width: 612px;
+    height: 888px;
+    left: 17%;
+    top: 964px;
+}
+.home2{
+    position: absolute;
+    width: 612px;
+    height: 888px;
+    left: 51%;
+    top: 1102px;
+}
+.home3{
+    position: absolute;
+    width: 612px;
+    height: 888px;
+    left: 17%;
+    top: 1876px;
+}
+.home4{
+    position: absolute;
+    width: 612px;
+    height: 888px;
+    left: 51%;
+    top: 2028px;
+}
+/* ^Fim das Primeira 4 img^ */
+.visualexplo{
+    position: absolute;
+    width: 324px;
+    height: 49px;
+    left: 40%;
+    top: 3142px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #F17800;
+}
+.home5{
+    position: absolute;
+    width: 400px;
+    height: 408px;
+    left:  16%;
+    top: 3256px;    
+}
+.home6{
+    position: absolute;
+    width: 400px;
+    height: 408px;
+    left: 38%;
+    top: 3256px;    
+}
+.home7{
+    position: absolute;
+    width: 400px;
+    height: 408px;
+    left: 60%;
+    top: 3256px;    
+}
+.home8{
+    position: absolute;
+    width: 400px;
+    height: 408px;
+    left: 16%;
+    top: 3688px;
+}
+.home9{
+    position: absolute;
+    width: 400px;
+    height: 408px;
+    left: 38%;
+    top: 3688px;
+}
+.home10{
+    position: absolute;
+    width: 400px;
+    height: 408px;
+    left: 60%;
+    top: 3688px;
+}
+/* ^Fim da visual explorations^ */
+.personalP{
+    position: absolute;
+    width: 300px;
+    height: 49px;
+    left: 40%;
+    top: 4336px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -0.5px;    
+    color: #F18700;  
+}
+.home11{
+    position: absolute;
+    width: 400px;
+    height: 560px;
+    left: 16%;
+    top: 4451px;    
+}
+.home12{
+    position: absolute;
+    width: 400px;
+    height: 560px;
+    left: 38%;
+    top: 4451px;
+}
+.home13{
+    position: absolute;
+    width: 400px;
+    height: 560px;
+    left: 60%;
+    top: 4451px;
+}
+/* ^Fim da Personal Projects^ */
+.contato{
+    position: absolute;
+    width: 427px;
+    height: 49px;
+    left: 38%;
+    top: 5251px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #F18700;
+}
+.IfYou{
+    position: absolute;
+    width: 479px;
+    height: 76px;
+    left: 37%;
+    top: 5324px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;  
+    color: #fff; 
+}
+.btnemail2{
+    position: absolute;
+    width: 312px;
+    height: 64px;
+    left: 41%;
+    top: 5460px;
+}
+/* Fim da parte final */
+.corte{
+    position: absolute;
+    width: 1440px;
+}
+.Madeby{
+    position: absolute;
+    width: 292px;
+    height: 36px;
+    left: calc(50% - 292px/2 - 478px);
+    bottom: 36px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+ 
+    color: #FEFEFE;
+    
     
 }
